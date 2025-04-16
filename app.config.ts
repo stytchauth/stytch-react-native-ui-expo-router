@@ -3,12 +3,13 @@ import "dotenv/config";
 export default ({ config }) => ({
   ...config,
   expo: {  
-  name: "my-app",
-  slug: "my-app",
+  name: "expo-router-demo",
+  slug: "expo-router-demo",
   version: "1.0.0",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   scheme: `stytch-ui-${process.env.EXPO_PUBLIC_STYTCH_PUBLIC_TOKEN}`,
+  owner: "stytch",
   userInterfaceStyle: "automatic",
   newArchEnabled: true,
   ios: {
